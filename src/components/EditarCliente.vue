@@ -31,15 +31,13 @@ export default {
     ...mapState(["clienteId"]),
   },
   methods: {
-      
-      ...mapActions(['updCliente'])
+    ...mapActions(["updCliente"]),
   },
- 
+
   mounted() {
     this.asignacionid(), this.getById();
   },
 };
 </script>
 
-<style lang="scss" scoped>
-</style>
+<style lang="scss" scoped></style>
